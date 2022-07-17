@@ -1,0 +1,25 @@
+GET http://localhost:8080/user
+
+###
+GET http://localhost:8080/user/62d239782242f0e73f59e661
+
+###
+POST http://localhost:8080/user
+Content-Type: application/json
+
+{   "id":"1101020",
+    "kota_id":"1101",
+    "nama":"SIMEULUE TIMUR"
+}
+
+###
+PATCH http://localhost:8080/user/62d239782242f0e73f59e661
+Content-Type: application/json
+
+{   "id":"1101099",
+    "kota_id":"1101",
+    "nama":"MARMEULUE TIMUR"
+}
+
+###
+DELETE http://localhost:8080/user/62d239782242f0e73f59e661
